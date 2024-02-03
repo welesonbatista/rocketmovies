@@ -9,8 +9,6 @@ import { Container, Form, Background } from './styles'
 export function SignUp() {
     return (
         <Container>
-
-
             <Form>
                 <h1>RocketMovies</h1>
                 <p>Aplicação para acompanhar tudo que assistir.</p>
@@ -37,7 +35,7 @@ export function SignUp() {
 
                 <Button title="Cadastrar" />
 
-                <Link to="/">
+                <Link to='/'>
                     <FiArrowLeft />
                     Voltar para o login
                 </Link>
